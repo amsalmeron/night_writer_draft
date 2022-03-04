@@ -7,7 +7,7 @@ RSpec.describe NightWriter do
 
   context 'Iteration 1' do
 
-    night = NightWriter.new("./message.txt")
+    night = NightWriter.new("./message.txt", "./braille.txt")
 
     it 'can read a file' do
       expect(night).to be_a(NightWriter)
@@ -16,7 +16,8 @@ RSpec.describe NightWriter do
     end
 
     it 'can write a file' do
-      expect(night.write).to eq("Insert Braille here.")
+      night.write
+      expect(File.read("./braille.txt")).to eq("Hello. This is what I wish to print.\n")
     end
 
   end
