@@ -28,7 +28,7 @@ RSpec.describe NightWriter do
       lines = File.readlines("./braille.txt")
       text = lines.join
       total_char = text.length
-      expect(night.display).to eq("Created #{night.output_write} containing #{total_char} characters")
+      expect(night.display).to eq("Created '#{night.output_write}' containing #{total_char} characters")
     end
 
   end

@@ -26,10 +26,10 @@ class NightWriter
   end
 
   def display
-    p "Created #{@output_write} containing #{write} characters"
+    p "Created '#{@output_write}' containing #{write} characters"
   end
 
 end
-#
+# 
 # h = NightWriter.new(ARGV[0],ARGV[1])
-# h.displa
+# h.display
