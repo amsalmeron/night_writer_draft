@@ -20,5 +20,9 @@ RSpec.describe NightWriter do
       expect(File.read("./braille.txt")).to eq("Hello. This is what I wish to print.\n")
     end
 
+    it 'can read character count of newly written file' do
+      expect(File.read("./braille.txt").length).to eq(37)
+    end
+
   end
 end
