@@ -9,20 +9,20 @@ class NightWriter
   end
 
   def read
-    if ("./#{@input_file}").nil?
-      puts "Please enter valid file path."
-    else
+    # if ("./#{@input_file}").nil?
+    #   puts "Please enter valid file path."
+    # else
       File.read(@input_file)
-    end
+    # end
   end
 
   def write
-    if ("./#{@output_write}").nil?
-      puts "No valid file path."
-    else
+    # if ("./#{@output_write}").nil?
+    #   puts "No valid file path."
+    # else
       new_message = File.read(@input_file)
       File.write(@output_write,new_message)
-    end
+    # end
   end
 
   def display
@@ -30,6 +30,6 @@ class NightWriter
   end
 
 end
-# 
+#
 # h = NightWriter.new(ARGV[0],ARGV[1])
 # h.display
