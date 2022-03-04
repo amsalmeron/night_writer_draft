@@ -4,9 +4,9 @@ require 'pry'
 
 class InputOutput
 
-  def initialize(arguments)
-    @in = args[0]
-    @out = args[1]
+  def initialize(in = ARGV[0], out = ARGV[1])
+    @in = in
+    @out = out
   end
 
   def read

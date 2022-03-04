@@ -9,4 +9,8 @@ class NightWriter
     @filename = filename
   end
 
+  def read
+    File.read("./spec/fixtures/#{@filename}")
+  end
+
 end
