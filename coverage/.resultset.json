@@ -1,7 +1,46 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/antoniosalmeron/turing/1module/projects/night_writer/spec/night_writer_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
     },
-    "timestamp": 1646414269
+    "timestamp": 1646421275
   }
 }
