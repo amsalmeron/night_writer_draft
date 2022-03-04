@@ -15,5 +15,9 @@ RSpec.describe NightWriter do
       expect(night.read).to eq("Hello. This is what I wish to print.\n")
     end
 
+    it 'can write a file' do
+      expect(night.write).to eq("Insert Braille here.")
+    end
+
   end
 end
