@@ -4,12 +4,13 @@ require 'pry'
 
 class InputOutput
 
-  def initialize
-    @filename = filename
+  def initialize(arguments)
+    @in = args[0]
+    @out = args[1]
   end
 
   def read
-    File.open(AGVR[0], "r")
+    File.open(AGRV[0], "r")
   end
 
 
