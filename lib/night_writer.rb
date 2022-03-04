@@ -9,16 +9,16 @@ class NightWriter
   end
 
   def read
-    if ("./#{@input}").nil?
+    if ("./#{input}").nil?
       puts "Please enter valid file path."
     else
-      File.read("./#{@input}")
+      File.read(@input)
     end
   end
 
 end
 
-h = NightWriter.new(ARGV[0])
-
-
-puts h.read
+# h = NightWriter.new(ARGV[0])
+#
+#
+# puts h.read
